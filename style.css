@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+header {
+    display: ;
+    background-color: tomato;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0px;
+}
+
+.icon {
+    background-image: url(img/icon-cat.png);
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin-top: -85px;
+    margin-left: 1700px;
+
+    
+}
+
+li {
+    display: inline-block;
+    color: white;
+    list-style: none  ;
+    padding: 20px;
+    
+}
+
+ul {
+    padding: 0;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+a:hover {
+    background-color: white;
+    color: tomato;
+}
+
+a:active {
+    color:forestgreen;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+pre {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer {
+    background-color:tomato ;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    bottom: 0px;
+}
